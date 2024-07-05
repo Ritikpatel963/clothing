@@ -145,7 +145,7 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="header-info header-info-right">
                             <ul>
-                                <li>Need help? Call Us: <strong class="text-brand">+91 93035 17773</strong></li>
+                                <li>Need help? Call Us: <strong class="text-brand">+91 76224 77641</strong></li>
                                 <li>
                                     <a class="language-dropdown-active" href="#">English <i class="fi-rs-angle-small-down"></i></a>
                                     <ul class="language-dropdown">
@@ -407,7 +407,7 @@
                     </div>
                     <div class="hotline d-none d-lg-flex">
                         <img src="assets/imgs/theme/icons/icon-headphone.svg" alt="hotline" />
-                        <p>+91 93035 17773<span>24/7 Support Center</span></p>
+                        <p>+91 76224 77641<span>24/7 Support Center</span></p>
                     </div>
                     <div class="header-action-icon-2 d-block d-lg-none">
                         <div class="burger-icon burger-icon-white">
