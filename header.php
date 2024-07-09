@@ -3,9 +3,10 @@
 
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
     <meta charset="utf-8" />
-    <title>Nest - Multipurpose eCommerce HTML Template</title>
+    <title>Swami</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,14 +15,78 @@
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon-32x32.png" />
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
     <link rel="stylesheet" href="assets/css/main5103.css?v=6.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
 <body>
-<!-- Modal -->
+    <!-- Modal -->
+    <div class="modal fade custom-modal" id="onloadModal" tabindex="-1" aria-labelledby="onloadModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="form-container">
+                        <div id="login-form">
+                            <div class="form-header">Login Form</div>
+                            <form onsubmit="return validateLoginForm()">
+                                <div class="form-field">
+                                    <i class="fa fa-phone"></i>
+                                    <input id="login-phone" type="tel" placeholder="Phone Number" maxlength="10" pattern="[0-9]{10}" required>
+                                </div>
+                                <div class="form-field">
+                                    <i class="fa fa-key"></i>
+                                    <input id="login-otp" type="number" placeholder="OTP" maxlength="10" required>
+                                </div>
+                                <input class="form-submit" type="submit" value="Login">
+                            </form>
+                            <div class="form-toggle">
+                                <span class="form-link" onclick="toggleForms()">If you are new user ? Sign Up</span>
+                            </div>
+                        </div>
+
+                        <div id="signup-form" style="display: none;">
+                            <div class="form-header">Sign Up Form</div>
+                            <form onsubmit="return validateSignupForm()">
+                                <div class="form-field">
+                                    <i class="fa fa-user"></i>
+                                    <input id="signup-name" type="text" placeholder="Name" required>
+                                </div>
+                                <div class="form-field">
+                                    <i class="fa fa-phone"></i>
+                                    <input id="signup-phone" type="tel" placeholder="Phone Number" maxlength="10" pattern="[0-9]{10}" required>
+                                </div>
+                                <div class="form-field">
+                                    <i class="fa fa-key"></i>
+                                    <input id="signup-otp" type="number" placeholder="OTP" maxlength="10" required>
+                                </div>
+                                <div class="form-radio-group">
+                                    <label>
+                                        <input type="radio" name="userType" value="Wholesaler" required>
+                                        <span class="radio-indicator"></span>
+                                        <img src="assets/imgs/shop/wholesale.png" alt="Wholesaler"> Wholesaler
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="userType" value="Retailer" required>
+                                        <span class="radio-indicator"></span>
+                                        <img src="assets/imgs/shop/shop.png" alt="Retailer"> Retailer
+                                    </label>
+                                </div>
+                                <input class="form-submit" type="submit" value="Sign Up">
+                            </form>
+                            <div class="form-toggle">
+                                <span class="form-link" onclick="toggleForms()">If you have already account ? Login</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Quick view -->
     <div class="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -656,3 +721,6 @@
         </div>
     </div>
     <!--End header-->
+    <a href="https://api.whatsapp.com/send?phone=9893165784" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>

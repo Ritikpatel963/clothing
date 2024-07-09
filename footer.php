@@ -129,3 +129,80 @@
             </div>
         </div>
     </div>
+
+        <!-- Vendor JS-->
+        <script>
+          function toggleForms() {
+            const loginForm = document.getElementById('login-form');
+            const signupForm = document.getElementById('signup-form');
+            if (loginForm.style.display === 'none') {
+                loginForm.style.display = 'block';
+                signupForm.style.display = 'none';
+            } else {
+                loginForm.style.display = 'none';
+                signupForm.style.display = 'block';
+            }
+        }
+
+        function validateLoginForm() {
+            const phone = document.getElementById('login-phone').value;
+            const otp = document.getElementById('login-otp').value;
+            if (phone.length !== 10 || !/^[0-9]{10}$/.test(phone)) {
+                alert('Please enter a valid 10-digit phone number.');
+                return false;
+            }
+            if (otp.length !== 10 || !/^[0-9]{10}$/.test(otp)) {
+                alert('Please enter a valid 10-digit OTP.');
+                return false;
+            }
+            return true;
+        }
+
+        function validateSignupForm() {
+            const name = document.getElementById('signup-name').value;
+            const phone = document.getElementById('signup-phone').value;
+            const otp = document.getElementById('signup-otp').value;
+            const userType = document.querySelector('input[name="userType"]:checked');
+            if (name.trim() === '') {
+                alert('Please enter your name.');
+                return false;
+            }
+            if (phone.length !== 10 || !/^[0-9]{10}$/.test(phone)) {
+                alert('Please enter a valid 10-digit phone number.');
+                return false;
+            }
+            if (otp.length !== 10 || !/^[0-9]{10}$/.test(otp)) {
+                alert('Please enter a valid 10-digit OTP.');
+                return false;
+            }
+            if (!userType) {
+                alert('Please select a user type.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/slick.js"></script>
+    <script src="assets/js/plugins/jquery.syotimer.min.js"></script>
+    <script src="assets/js/plugins/waypoints.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/plugins/perfect-scrollbar.js"></script>
+    <script src="assets/js/plugins/magnific-popup.js"></script>
+    <script src="assets/js/plugins/select2.min.js"></script>
+    <script src="assets/js/plugins/counterup.js"></script>
+    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+    <script src="assets/js/plugins/images-loaded.js"></script>
+    <script src="assets/js/plugins/isotope.js"></script>
+    <script src="assets/js/plugins/scrollup.js"></script>
+    <script src="assets/js/plugins/jquery.vticker-min.js"></script>
+    <script src="assets/js/plugins/jquery.theia.sticky.js"></script>
+    <script src="assets/js/plugins/jquery.elevatezoom.js"></script>
+    <!-- Template  JS -->
+    <script src="assets/js/main5103.js?v=6.0"></script>
+    <script src="assets/js/shop5103.js?v=6.0"></script>
+</body>
+</html>

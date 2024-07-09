@@ -3,9 +3,10 @@
 
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
     <meta charset="utf-8" />
-    <title>Nest - Multipurpose eCommerce HTML Template</title>
+    <title>Swami</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,55 +15,13 @@
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon-32x32.png" />
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
     <link rel="stylesheet" href="assets/css/main5103.css?v=6.0" />
 </head>
-
-<body>
     <!-- Modal -->
-    <div class="modal fade custom-modal" id="onloadModal" tabindex="-1" aria-labelledby="onloadModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="modal-body">
-                    <div class="deal" style="background-image: url('assets/imgs/banner/ai.png')">
-                        <div class="deal-top">
-                            <h6 class="mb-10 text-brand-2">Deal of the Day</h6>
-                        </div>
-                        <div class="deal-content detail-info">
-                            <h4 class="product-title"><a class='text-heading' href='shop-product-right.html'>Organic fruit for your family's health</a></h4>
-                            <div class="clearfix product-price-cover">
-                                <div class="product-price primary-color float-left">
-                                    <span class="current-price text-brand">₹38</span>
-                                    <span>
-                                        <span class="save-price font-md color3 ml-15">26% Off</span>
-                                        <span class="old-price font-md ml-15">₹52</span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="deal-bottom">
-                            <p class="mb-20">Hurry Up! Offer End In:</p>
-                            <div class="deals-countdown pl-5" data-countdown="2025/03/25 00:00:00">
-                                <span class="countdown-section"><span class="countdown-amount hover-up">03</span><span class="countdown-period"> days </span></span><span class="countdown-section"><span class="countdown-amount hover-up">02</span><span class="countdown-period"> hours </span></span><span class="countdown-section"><span class="countdown-amount hover-up">43</span><span class="countdown-period"> mins </span></span><span class="countdown-section"><span class="countdown-amount hover-up">29</span><span class="countdown-period"> sec </span></span>
-                            </div>
-                            <div class="product-detail-rating">
-                                <div class="product-rate-cover text-end">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
-                                    </div>
-                                    <span class="font-small ml-5 text-muted"> (32 rates)</span>
-                                </div>
-                            </div>
-                            <a class='btn hover-up' href='shop-grid-right.html'>Shop Now <i class="fi-rs-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
     <!-- Quick view -->
     <div class="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -155,7 +114,7 @@
             </div>
         </div>
     </div>
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
     <!--End header-->
     <main class="main">
         <section class="home-slider position-relative mb-30">
@@ -230,7 +189,7 @@
                             <h6><a href='shop-grid-right.html'>D/B</a></h6>
                             <span>14 items</span>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -321,7 +280,61 @@
                                         <div class="product-category">
                                             <a href='shop-grid-left.php'>AMBIKA</a>
                                         </div>
-                                        <h2><a href='shop-product-right.html'>Red Saree </a></h2>
+                                        <div class="whatsappandtitle">
+                                            <h2><a href='shop-product-right.html'>Red Saree </a></h2>
+                                            <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank" class="whatsapp-icon">
+                                                <img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats">
+                                            </a>
+                                        </div>
+                                        <div class="product-rate-cover">
+                                            <div class="product-rate d-inline-block">
+                                                <div class="product-rating" style="width: 90%"></div>
+                                            </div>
+                                            <span class="font-small ml-5 text-muted"> (1 piece)</span>
+                                        </div>
+                                        <div>
+                                            <span class="font-small text-muted">By <a href='#'>AMBIKA</a></span>
+                                        </div>
+                                        <div class="product-card-bottom">
+                                            <div class="product-price">
+                                                <span>₹299.85</span>
+                                                <span class="old-price">₹399.8</span>
+                                            </div>
+                                            <div class="add-cart">
+                                                <a class='add' href='shop-cart.html'><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
+                                <div class="product-cart-wrap mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+                                    <div class="product-img-action-wrap">
+                                        <div class="product-img product-img-zoom">
+                                            <a href='shop-product-right.html'>
+                                                <img class="default-img" src="assets/imgs/shop/saree.png" alt="" />
+                                                <img class="hover-img" src="assets/imgs/shop/saree.png" alt="" />
+                                            </a>
+                                        </div>
+                                        <div class="product-action-1">
+                                            <a aria-label='Add To Wishlist' class='action-btn' href='shop-wishlist.html'><i class="fi-rs-heart"></i></a>
+                                            <a aria-label='Compare' class='action-btn' href='shop-compare.html'><i class="fi-rs-shuffle"></i></a>
+                                            <a aria-label="Quick view" class="action-btn" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
+                                        </div>
+                                        <div class="product-badges product-badges-position product-badges-mrg">
+                                            <span class="hot">Hot</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-content-wrap">
+                                        <div class="product-category">
+                                            <a href='shop-grid-left.php'>AMBIKA</a>
+                                        </div>
+                                        <div class="whatsappandtitle">
+                                            <h2><a href='shop-product-right.html'>Red Saree </a></h2>
+                                            <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." target="_blank" class="whatsapp-icon">
+                                                <img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats">
+                                            </a>
+                                        </div>
                                         <div class="product-rate-cover">
                                             <div class="product-rate d-inline-block">
                                                 <div class="product-rating" style="width: 90%"></div>
@@ -344,7 +357,7 @@
                                 </div>
                             </div>
                             <!--end product card-->
-                           
+
                             <!--end product card-->
                         </div>
                         <!--End product-grid-4-->
@@ -3071,9 +3084,14 @@
                                                 <div class="product-category">
                                                     <a href='shop-grid-right.html'>Hodo Foods</a>
                                                 </div>
-                                                <h2><a href='shop-product-right.html'>Seeds of Change Organic Quinoa, Brown</a></h2>
+                                                <div class="whatsappandtitle">
+                                                    <h2><a href='shop-product-right.html'>Seeds of Change Organic Quinoa, Brown</a></h2>
+                                                </div>
                                                 <div class="product-rate d-inline-block">
                                                     <div class="product-rating" style="width: 80%"></div>
+                                                </div>
+                                                <div class="productwhatsapp">
+                                                    <a href=""><img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats"></a>
                                                 </div>
                                                 <div class="product-price mt-10">
                                                     <span>₹238.85 </span>
@@ -3676,7 +3694,7 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img">
                                     <a href='shop-product-right.html'>
-                                        <img src="assets/imgs/banner/banner-5.png" alt="" />
+                                        <img src="assets/imgs/banner/product1.jpeg" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -3692,8 +3710,9 @@
                                         </div>
                                         <span class="font-small ml-5 text-muted"> (4.0)</span>
                                     </div>
-                                    <div>
+                                    <div class="whatsappandtitle">
                                         <span class="font-small text-muted">By <a href='vendor-details-1.html'>NestFood</a></span>
+                                        <a href=""><img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats"></a>
                                     </div>
                                     <div class="product-card-bottom">
                                         <div class="product-price">
@@ -3713,7 +3732,7 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img">
                                     <a href='shop-product-right.html'>
-                                        <img src="assets/imgs/banner/banner-6.png" alt="" />
+                                        <img src="assets/imgs/banner/product2.jpeg" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -3729,8 +3748,9 @@
                                         </div>
                                         <span class="font-small ml-5 text-muted"> (4.0)</span>
                                     </div>
-                                    <div>
-                                        <span class="font-small text-muted">By <a href='vendor-details-1.html'>Old El Paso</a></span>
+                                    <div class="whatsappandtitle">
+                                        <span class="font-small text-muted">By <a href='vendor-details-1.html'>NestFood</a></span>
+                                        <a href=""><img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats"></a>
                                     </div>
                                     <div class="product-card-bottom">
                                         <div class="product-price">
@@ -3750,7 +3770,7 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img">
                                     <a href='shop-product-right.html'>
-                                        <img src="assets/imgs/banner/banner-7.png" alt="" />
+                                        <img src="assets/imgs/banner/product3.jpeg" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -3766,8 +3786,9 @@
                                         </div>
                                         <span class="font-small ml-5 text-muted"> (3.0)</span>
                                     </div>
-                                    <div>
-                                        <span class="font-small text-muted">By <a href='vendor-details-1.html'>Progresso</a></span>
+                                    <div class="whatsappandtitle">
+                                        <span class="font-small text-muted">By <a href='vendor-details-1.html'>NestFood</a></span>
+                                        <a href=""><img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats"></a>
                                     </div>
                                     <div class="product-card-bottom">
                                         <div class="product-price">
@@ -3787,7 +3808,7 @@
                             <div class="product-img-action-wrap">
                                 <div class="product-img">
                                     <a href='shop-product-right.html'>
-                                        <img src="assets/imgs/banner/banner-8.png" alt="" />
+                                        <img src="assets/imgs/banner/product4.jpeg" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -3803,8 +3824,9 @@
                                         </div>
                                         <span class="font-small ml-5 text-muted"> (3.0)</span>
                                     </div>
-                                    <div>
-                                        <span class="font-small text-muted">By <a href='vendor-details-1.html'>Yoplait</a></span>
+                                    <div class="whatsappandtitle">
+                                        <span class="font-small text-muted">By <a href='vendor-details-1.html'>NestFood</a></span>
+                                        <a href=""><img src="assets/imgs/shop/whatsapp.png" alt="WhatsApp" class="productwhats"></a>
                                     </div>
                                     <div class="product-card-bottom">
                                         <div class="product-price">
@@ -4091,32 +4113,4 @@
         </section>
         <!--End 4 columns-->
     </main>
-    <?php include 'footer.php';?>
-    <!-- Vendor JS-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/plugins/slick.js"></script>
-    <script src="assets/js/plugins/jquery.syotimer.min.js"></script>
-    <script src="assets/js/plugins/waypoints.js"></script>
-    <script src="assets/js/plugins/wow.js"></script>
-    <script src="assets/js/plugins/perfect-scrollbar.js"></script>
-    <script src="assets/js/plugins/magnific-popup.js"></script>
-    <script src="assets/js/plugins/select2.min.js"></script>
-    <script src="assets/js/plugins/counterup.js"></script>
-    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
-    <script src="assets/js/plugins/images-loaded.js"></script>
-    <script src="assets/js/plugins/isotope.js"></script>
-    <script src="assets/js/plugins/scrollup.js"></script>
-    <script src="assets/js/plugins/jquery.vticker-min.js"></script>
-    <script src="assets/js/plugins/jquery.theia.sticky.js"></script>
-    <script src="assets/js/plugins/jquery.elevatezoom.js"></script>
-    <!-- Template  JS -->
-    <script src="assets/js/main5103.js?v=6.0"></script>
-    <script src="assets/js/shop5103.js?v=6.0"></script>
-</body>
-
-
-<!-- Mirrored from nest-frontend-v6.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jun 2024 08:17:24 GMT -->
-</html>
+    <?php include 'footer.php'; ?>

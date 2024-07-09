@@ -1,26 +1,4 @@
-﻿<!DOCTYPE html>
-<html class="no-js" lang="en">
-
-
-<!-- Mirrored from nest-frontend-v6.netlify.app/shop-product-full by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jun 2024 08:18:06 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-    <meta charset="utf-8" />
-    <title>Nest - Multipurpose eCommerce HTML Template</title>
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/main5103.css?v=6.0" />
-</head>
-
-<body class="single-product">
+﻿<?php include 'hedaer.php';?>
     <!-- Quick view -->
     <div class="modal fade custom-modal" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
         <div class="modal-dialog">
