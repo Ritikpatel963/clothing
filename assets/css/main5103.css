@@ -12137,3 +12137,9 @@ footer .hotline img {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* custom css by ritik */
+#carausel-10-columns > div:nth-child(1) > div:nth-child(1){
+margin-left: 0 !important;
+margin-right: 0 !important;
+}

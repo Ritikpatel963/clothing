@@ -122,7 +122,7 @@
                 <div class="home-slide-cover mt-30">
                     <div class="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1">
                         <div class="single-hero-slider single-animation-wrap" style="background-image: url(assets/imgs/slider/slider-10.png)">
-                            <div class="slider-content">
+                            <!-- <div class="slider-content">
                                 <h1 class="display-2 mb-40" style="color: white;">
                                     Don’t miss amazing<br />
                                     grocery deals
@@ -132,10 +132,10 @@
                                     <input type="email" placeholder="Your emaill address" />
                                     <button class="btn" type="submit">Subscribe</button>
                                 </form>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="single-hero-slider single-animation-wrap" style="background-image: url(assets/imgs/slider/slider-11.png)">
-                            <div class="slider-content">
+                            <!-- <div class="slider-content">
                                 <h1 class="display-2 mb-40" style="color: white;">
                                     Fresh Vegetables<br />
                                     Big discount
@@ -145,7 +145,7 @@
                                     <input type="email" placeholder="Your emaill address" />
                                     <button class="btn" type="submit">Subscribe</button>
                                 </form>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="slider-arrow hero-slider-1-arrow"></div>
@@ -155,17 +155,6 @@
         <!--End hero slider-->
         <section class="popular-categories section-padding">
             <div class="container wow animate__animated animate__fadeIn">
-                <div class="section-title">
-                    <div class="title">
-                        <h3>Featured Categories</h3>
-                        <ul class="list-inline nav nav-tabs links">
-                            <li class="list-inline-item nav-item"><a class='nav-link' href='shop-grid-right.html'>AMBIKA</a></li>
-                            <li class="list-inline-item nav-item"><a class='nav-link' href='shop-grid-right.html'>ANTRA</a></li>
-                            <li class="list-inline-item nav-item"><a class='nav-link active' href='shop-grid-right.html'>D/B</a></li>
-                        </ul>
-                    </div>
-                    <div class="slider-arrow slider-arrow-2 flex-right carausel-10-columns-arrow" id="carausel-10-columns-arrows"></div>
-                </div>
                 <div class="carausel-10-columns-cover position-relative">
                     <div class="carausel-10-columns" id="carausel-10-columns">
                         <div class="card-2 bg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">

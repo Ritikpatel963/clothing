@@ -63,18 +63,7 @@
                                     <i class="fa fa-key"></i>
                                     <input id="signup-otp" type="number" placeholder="OTP" maxlength="10" required>
                                 </div>
-                                <div class="form-radio-group">
-                                    <label>
-                                        <input type="radio" name="userType" value="Wholesaler" required>
-                                        <span class="radio-indicator"></span>
-                                        <img src="assets/imgs/shop/wholesale.png" alt="Wholesaler"> Wholesaler
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="userType" value="Retailer" required>
-                                        <span class="radio-indicator"></span>
-                                        <img src="assets/imgs/shop/shop.png" alt="Retailer"> Retailer
-                                    </label>
-                                </div>
+                                
                                 <input class="form-submit" type="submit" value="Sign Up">
                             </form>
                             <div class="form-toggle">
